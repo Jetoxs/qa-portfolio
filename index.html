@@ -67,7 +67,6 @@
                     <span class="glass px-3 py-1 rounded text-[10px] font-bold uppercase">Slack</span>
                     <span class="glass px-3 py-1 rounded text-[10px] font-bold uppercase">Notion</span>
                     <span class="glass px-3 py-1 rounded text-[10px] font-bold uppercase">Jira</span>
-                    <span class="glass px-3 py-1 rounded text-[10px] font-bold uppercase">Monday</span>
                 </div>
                 <h2 class="text-[10px] font-bold uppercase tracking-[0.2em] mb-4 text-slate-500">Languages</h2>
                 <p class="text-sm font-medium uppercase tracking-tight">
@@ -78,17 +77,42 @@
         </div>
     </section>
 
-    <section id="cases" class="max-w-4xl mx-auto px-8 mb-24">
-        <h2 class="text-[10px] font-bold uppercase tracking-[0.2em] mb-8 text-slate-500">Selected Case Studies</h2>
+<section id="cases" class="max-w-4xl mx-auto px-8 mb-24">
+        <h2 class="text-[10px] font-bold uppercase tracking-[0.2em] mb-8 text-slate-500 text-center md:text-left">Selected Case Studies</h2>
         <div class="grid md:grid-cols-2 gap-6">
-            <div class="glass p-8 rounded-xl border border-dashed border-white/10 flex flex-col justify-center items-center h-48 text-center glow-hover transition-all">
-                <span class="text-[10px] text-teal-500 uppercase font-black mb-2 tracking-widest">Project 01</span>
-                <p class="text-slate-500 text-xs italic">Upcoming: Stability Analysis & Bug Documentation</p>
+            
+            <div class="glass p-8 rounded-xl border border-dashed border-white/10 flex flex-col justify-between min-h-[300px] glow-hover transition-all group overflow-hidden">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-[10px] text-teal-500 uppercase font-black tracking-widest">Case Study: Asset Audit</span>
+                        <span class="text-[9px] bg-red-500/10 text-red-400 px-2 py-1 rounded border border-red-500/20 font-bold uppercase">High Severity</span>
+                    </div>
+                    
+                    <h3 class="text-lg font-bold text-white mb-2 leading-tight">CHARACTER ASSET REPLICATION CONFLICT</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">
+                        Identified a critical logic error in a Roblox gacha-style experience where "Friend-Skinned" characters failed to clear cache during swaps, causing data persistence issues.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-[9px] px-2 py-1 bg-white/5 rounded text-slate-500 font-mono">#LogicBug</span>
+                        <span class="text-[9px] px-2 py-1 bg-white/5 rounded text-slate-500 font-mono">#State-Machine</span>
+                        <span class="text-[9px] px-2 py-1 bg-white/5 rounded text-slate-500 font-mono">#RobloxEngine</span>
+                    </div>
+                </div>
+
+                <a href="https://www.notion.so/344d563275af8017af30e90ebf7144c1?v=344d563275af80799eae000c3d8fb09d&source=copy_link" 
+                   target="_blank" 
+                   class="inline-flex items-center justify-center gap-2 text-[10px] font-bold uppercase tracking-widest text-teal-400 border border-teal-400/30 px-4 py-3 rounded-lg hover:bg-teal-400 hover:text-black transition-all duration-300">
+                    <span>View Full Bug Report</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
             </div>
-            <div class="glass p-8 rounded-xl border border-dashed border-white/10 flex flex-col justify-center items-center h-48 text-center glow-hover transition-all">
+
+            <div class="glass p-8 rounded-xl border border-dashed border-white/10 flex flex-col justify-center items-center h-full text-center glow-hover transition-all opacity-60">
                 <span class="text-[10px] text-teal-500 uppercase font-black mb-2 tracking-widest">Project 02</span>
-                <p class="text-slate-500 text-xs italic">Upcoming: Regression Testing & UX Research</p>
+                <p class="text-slate-500 text-xs italic">In Development</p>
             </div>
+
         </div>
     </section>
 
